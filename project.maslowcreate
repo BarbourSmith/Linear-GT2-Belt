@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 872855,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Number of teeth",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -13,22 +18,9 @@
             "x": 0.13469985358711567,
             "y": 0.3563218390804597,
             "uniqueID": 343519,
-            "ioValues": [
-                {
-                    "name": "Number of teeth",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Number of teeth",
-                    "x": 0.013333333333333334,
-                    "y": 0.10727969348659004,
-                    "uniqueID": 190269,
-                    "ioValues": []
-                },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
@@ -64,10 +56,18 @@
                     ]
                 },
                 {
+                    "atomType": "Intersection",
+                    "name": "Intersection",
+                    "x": 0.4282576866764275,
+                    "y": 0.4061302681992337,
+                    "uniqueID": 594163,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.48023426061493407,
-                    "y": 0.19157088122605365,
+                    "x": 0.5907759882869692,
+                    "y": 0.12260536398467432,
                     "uniqueID": 200353,
                     "ioValues": [
                         {
@@ -87,14 +87,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Intersection",
-                    "name": "Intersection",
-                    "x": 0.4282576866764275,
-                    "y": 0.4061302681992337,
-                    "uniqueID": 594163,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -177,28 +169,6 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Linear Repeat",
-                    "x": 0.7679355783308931,
-                    "y": 0.13793103448275862,
-                    "uniqueID": 161233,
-                    "projectID": "257972737",
-                    "ioValues": [
-                        {
-                            "name": "repeats",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "x distance",
-                            "ioValue": 2
-                        },
-                        {
-                            "name": "y distance",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.27306002928257683,
@@ -241,10 +211,48 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.4838945827232796,
+                    "y": 0.8160919540229885,
+                    "uniqueID": 522592,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -0.3
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2972181551976574,
+                    "y": 0.9272030651340996,
+                    "uniqueID": 110548,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 0.6
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Corner Fillets",
-                    "x": 0.8125915080527086,
-                    "y": 0.42911877394636017,
+                    "x": 0.7840409956076135,
+                    "y": 0.7203065134099617,
                     "uniqueID": 186050,
                     "ioValues": [],
                     "topLevel": false,
@@ -314,44 +322,6 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.4838945827232796,
-                    "y": 0.8160919540229885,
-                    "uniqueID": 522592,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -0.3
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.2972181551976574,
-                    "y": 0.9272030651340996,
-                    "uniqueID": 110548,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 0.6
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -360,13 +330,6 @@
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "repeats",
-                    "ap2Primary": false,
-                    "ap1ID": 190269,
-                    "ap2ID": 161233
-                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -383,17 +346,16 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 200353,
-                    "ap2ID": 161233
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 5",
                     "ap2Primary": false,
                     "ap1ID": 594163,
                     "ap2ID": 200353
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 200353
                 },
                 {
                     "ap1Name": "geometry",
@@ -422,12 +384,6 @@
                     "ap2Primary": true,
                     "ap1ID": 231438,
                     "ap2ID": 458712
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 161233
                 },
                 {
                     "ap1Name": "geometry",
@@ -482,6 +438,36 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Linear Repeat",
+            "x": 0.4062957540263543,
+            "y": 0.5747126436781609,
+            "uniqueID": 459717,
+            "projectID": "257972737",
+            "ioValues": [
+                {
+                    "name": "repeats",
+                    "ioValue": 10
+                },
+                {
+                    "name": "x distance",
+                    "ioValue": 2
+                },
+                {
+                    "name": "y distance",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "Number of teeth",
+            "x": 0.013333333333333334,
+            "y": 0.7164750957854406,
+            "uniqueID": 720575,
+            "ioValues": []
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -489,7 +475,28 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": 343519,
+            "ap2ID": 459717
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 459717
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "repeats",
+            "ap2Primary": false,
+            "ap1ID": 720575,
+            "ap2ID": 459717
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": "0.1"
