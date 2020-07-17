@@ -4,3 +4,6 @@
 
 ![](/project.svg)
 
+<h3 style="font-size:20px;"><strong>Linear Repeat:</strong></h3>Repeat geometry in a straight line
+
+
