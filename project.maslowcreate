@@ -15,8 +15,8 @@
         {
             "atomType": "Molecule",
             "name": "One Tooth",
-            "x": 0.13469985358711567,
-            "y": 0.3563218390804597,
+            "x": 0.11127379209370425,
+            "y": 0.31417624521072796,
             "uniqueID": 343519,
             "ioValues": [],
             "topLevel": false,
@@ -356,8 +356,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear Repeat",
-            "x": 0.4062957540263543,
-            "y": 0.5747126436781609,
+            "x": 0.4363103953147877,
+            "y": 0.4597701149425288,
             "uniqueID": 459717,
             "projectID": "257972737",
             "ioValues": [
