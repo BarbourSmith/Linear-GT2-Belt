@@ -15,8 +15,8 @@
         {
             "atomType": "Molecule",
             "name": "One Tooth",
-            "x": 0.11127379209370425,
-            "y": 0.31417624521072796,
+            "x": 0.13103953147877012,
+            "y": 0.3563218390804597,
             "uniqueID": 343519,
             "ioValues": [],
             "topLevel": false,
@@ -156,7 +156,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 2
+                            "ioValue": 2.1
                         },
                         {
                             "name": "y length",
@@ -355,23 +355,19 @@
         },
         {
             "atomType": "GitHubMolecule",
-            "name": "Linear Repeat",
-            "x": 0.4363103953147877,
-            "y": 0.4597701149425288,
-            "uniqueID": 459717,
-            "projectID": "257972737",
+            "name": "Linear Pattern",
+            "x": 0.45534407027818447,
+            "y": 0.5172413793103449,
+            "uniqueID": 471242,
+            "projectID": "304166099",
             "ioValues": [
                 {
-                    "name": "repeats",
-                    "ioValue": 10
-                },
-                {
-                    "name": "x distance",
+                    "name": "Spacing",
                     "ioValue": 2
                 },
                 {
-                    "name": "y distance",
-                    "ioValue": 0
+                    "name": "Number",
+                    "ioValue": 10
                 }
             ]
         },
@@ -394,23 +390,23 @@
     "allConnectors": [
         {
             "ap1Name": "Geometry",
-            "ap2Name": "Geometry",
+            "ap2Name": "Shape",
             "ap2Primary": false,
             "ap1ID": 343519,
-            "ap2ID": 459717
+            "ap2ID": 471242
         },
         {
             "ap1Name": "Geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 459717
+            "ap1ID": 471242
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "repeats",
+            "ap2Name": "Number",
             "ap2Primary": false,
             "ap1ID": 720575,
-            "ap2ID": 459717
+            "ap2ID": 471242
         }
     ],
     "fileTypeVersion": 1,
