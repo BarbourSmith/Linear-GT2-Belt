@@ -414,10 +414,18 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Input",
+            "name": "Number of teeth",
+            "x": 0.013333333333333334,
+            "y": 0.7164750957854406,
+            "uniqueID": 720575,
+            "ioValues": []
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "Linear Pattern",
-            "x": 0.4580310880829016,
-            "y": 0.5267175572519084,
+            "x": 0.4756476683937824,
+            "y": 0.5534351145038168,
             "uniqueID": 471242,
             "projectID": "304166099",
             "ioValues": [
@@ -432,20 +440,17 @@
             ]
         },
         {
-            "atomType": "Input",
-            "name": "Number of teeth",
-            "x": 0.013333333333333334,
-            "y": 0.7164750957854406,
-            "uniqueID": 720575,
-            "ioValues": []
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
             "y": 0.5,
             "uniqueID": 183865,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/872855/471242/709218Code"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -457,18 +462,18 @@
             "ap2ID": 471242
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 471242,
-            "ap2ID": 183865
-        },
-        {
             "ap1Name": "number or geometry",
             "ap2Name": "Number",
             "ap2Primary": false,
             "ap1ID": 720575,
             "ap2ID": 471242
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 471242,
+            "ap2ID": 183865
         }
     ],
     "fileTypeVersion": 1,
