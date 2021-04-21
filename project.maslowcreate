@@ -15,8 +15,8 @@
         {
             "atomType": "Molecule",
             "name": "One Tooth",
-            "x": 0.13396778916544655,
-            "y": 0.3511450381679389,
+            "x": 0.13250366032210836,
+            "y": 0.3473282442748092,
             "uniqueID": 343519,
             "ioValues": [],
             "topLevel": false,
@@ -51,7 +51,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -0.454
+                            "ioValue": -0.554
                         },
                         {
                             "name": "zDist",
@@ -143,7 +143,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.061
+                            "ioValue": 0.161
                         },
                         {
                             "name": "zDist",
@@ -164,7 +164,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.8299999999999998
+                            "ioValue": 1
                         }
                     ]
                 },
